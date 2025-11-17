@@ -1,1 +1,0 @@
-Diagnose from the characteristics of the cell nuclei present in the dataset as M = malignant  or B = Benign the final price of each home. Use only linear regression and decision tree models, no ensembling. The models must be extremely simple and quickly trainable on extremely constrained hardware.
