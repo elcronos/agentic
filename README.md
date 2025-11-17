@@ -15,7 +15,7 @@ Each folder in this repo is an independent project with its own `README.md`, cod
 
 ### 1. AgenticClassicML
 
-<img src="AgenticClassicML/AgenticML.png" alt="Agentic classic ML" width="200"/>
+<img src="AgenticClassicML/AgenticML.png" alt="Agentic classic ML" width="500"/>
 
 **Folder:** `AgenticClassicML/`  
 **Readme:** [`AgenticClassicML/README.md`](AgenticClassicML/README.md)
