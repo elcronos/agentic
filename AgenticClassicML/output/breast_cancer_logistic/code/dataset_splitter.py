@@ -1,0 +1,1 @@
+train_test_split(df, test_size=0.3, stratify=df['diagnosis'], random_state=42) followed by train_test_split(temp_df, test_size=0.5, stratify=temp_df['diagnosis'], random_state=42)
