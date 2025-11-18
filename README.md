@@ -50,6 +50,75 @@ For details, setup instructions, and code walkthrough, see the dedicated readme:
 ➡️ [`AgenticClassicML/README.md`](AgenticClassicML/README.md)
 
 ---
+### 2. AgenticCV
+
+<img src="AgenticCV/AgenticCV_cover.png" alt="Agentic computer vision with DSPy" width="500"/>
+
+**Folder:** `AgenticCV/`  
+**Readme:** [`AgenticCV/README.md`](AgenticCV/README.md)
+
+**What it is**
+
+An example that uses **[DSPy](https://github.com/stanfordnlp/dspy)** to build an **agentic computer vision classifier** on the MVTec AD *capsule* dataset.
+
+Instead of training a conventional CNN, the project:
+
+- Wraps a multimodal LLM (e.g. `gpt-4o`) in a **Chain-of-Thought DSPy module** to:
+  - Inspect capsule images and reason about visual defects,
+  - Classify each image into `crack`, `scratch`, `poke`, `faulty_imprint`, `squeeze`, or `good`.
+- Uses **MIPROv2** to automatically **optimize the prompt/program**:
+  - Baseline Chain-of-Thought model: ~**60%** exact-match accuracy,
+  - MIPROv2-optimized program: ~**76%** exact-match accuracy.
+- Exports the optimized programs as **JSON files** that capture:
+  - The final prompt,
+  - The DSPy configuration,
+  - The structure of the compiled model.
+
+**Why it matters**
+
+This project is designed to signal:
+
+- Practical experience **using DSPy for agentic CV**, not just calling a vision API once.
+- Ability to turn a folder of images into a **structured evaluation pipeline** using `dspy.Example`, stratified splits, and exact-match metrics.
+- Familiarity with **program-level optimization** (MIPROv2) to systematically improve LLM-based models and save the resulting configurations for reuse and deployment.
+
+For details, setup instructions, and code walkthrough, see the dedicated readme:  
+➡️ [`AgenticCV/README.md`](AgenticCV/README.md)
+
+### 3. GenAIVideoGenerationVeo3
+
+<img src="GenAIVideoGenerationVeo3/GenAIVideos.png" alt="GenAI video generation with Veo 3" width="500"/>
+
+**Folder:** `GenAIVideoGenerationVeo3/`  
+**Readme:** [`GenAIVideoGenerationVeo3/README.md`](GenAIVideoGenerationVeo3/README.md)
+
+**What it is**
+
+An example that uses **Gemini 2.5** + **Veo 3** to automatically generate **multi-scene videos** (e.g. vlogs) from a single high-level idea.
+
+Instead of manually editing video or hand-crafting every shot, the project:
+
+- Uses **Gemini 2.5 Pro** to:
+  - Expand an idea (e.g. “tourist kangaroo visiting Paris”) into a sequence of structured **scene prompts**,
+  - Return scenes as JSON (`Scene` / `SceneResponse`) with both positive and negative descriptions.
+- Uses **Veo 3** to:
+  - Generate a short **video clip per scene** with cinematic 16:9 framing,
+  - Respect style constraints (e.g. realistic, 4K, vlog style).
+- Uses **MoviePy** to:
+  - Stitch all scene clips together,
+  - Produce a final `vlog.mp4` ready to share.
+
+**Why it matters**
+
+This project is designed to signal:
+
+- Practical experience orchestrating **multi-step GenAI video workflows** (text → scenes → clips → merged video).
+- Ability to combine **LLM prompt engineering**, **structured JSON outputs**, and **video generation APIs** in a single pipeline.
+- Familiarity with real-world tooling such as `google-genai` and `moviepy` to build portfolio-ready GenAI demos (e.g. automated vlogs, short stories, or marketing clips).
+
+For details, setup instructions, and code walkthrough, see the dedicated readme:  
+➡️ [`GenAIVideoGenerationVeo3/README.md`](GenAIVideoGenerationVeo3/README.md)
+
 
 ## Structure
 

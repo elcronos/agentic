@@ -1,6 +1,7 @@
 # GenAIVideoGenerationVeo3
 
-[![Watch the video]()](/videos/kangaroo_paris/vlog.mp4)
+![GenAIVideos](GenAIVideos.png "GenAI Video Generation")
+
 
 This project shows how to use **Gemini 2.5 + Veo 3** to generate a short, multi-scene video (e.g. a vlog) from a single idea.
 
@@ -11,6 +12,8 @@ The script:
 3. **Merges all clips** into one final video using **MoviePy**.
 
 The default example creates a vlog of a **kangaroo visiting Paris for the first time**.
+
+[![Watch the video]()](/videos/kangaroo_paris/vlog.mp4)
 
 ---
 
