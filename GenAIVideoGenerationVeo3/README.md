@@ -13,7 +13,7 @@ The script:
 
 The default example creates a vlog of a **kangaroo visiting Paris for the first time**.
 
-![Watch the video](https://drive.google.com/file/d/1IFv4h4_SPKFkx9rM6eIHsOV21bz7cZ1v/view)
+[Watch the video](https://drive.google.com/file/d/1IFv4h4_SPKFkx9rM6eIHsOV21bz7cZ1v/view)
 
 ---
 
