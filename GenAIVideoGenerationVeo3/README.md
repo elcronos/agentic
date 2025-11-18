@@ -13,7 +13,7 @@ The script:
 
 The default example creates a vlog of a **kangaroo visiting Paris for the first time**.
 
-[![Watch the video]()](GenAIVideoGenerationVeo3/videos/kangaroo_paris_2/vlog.mp4)
+[![Watch the video]()](videos/kangaroo_paris_2/vlog.mp4)
 
 ---
 
