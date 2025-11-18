@@ -6,7 +6,7 @@ It focuses on:
 
 - Using LLM-driven agents to **design, run, and evaluate end-to-end ML workflows**.  
 - Embedding GenAI models into real **data/ML stacks** (classic ML, computer vision, video) instead of one-off demos.  
-- **Optimising prompts and agent programs** (e.g. via DSPy/MIPROv-style teleprompting) rather than treating prompts as static text.  
+- **Optimising prompts and agent programs** (e.g. via DSPy/MIPROv2-style) rather than treating prompts as static text.  
 - Building **evaluation loops** for agents and models (end-to-end vs component-based evaluations, LLM-as-a-judge).  
 - Exploring **current AI engineering tools and patterns** in a fast-moving ecosystem (agent frameworks, multimodal LLMs, and GenAI video).  
 
