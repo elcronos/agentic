@@ -13,8 +13,9 @@ The script:
 
 The default example creates a vlog of a **kangaroo visiting Paris for the first time**.
 
-[![Watch the video]](videos/kangaroo_paris_2/vlog.mp4)
-
+<video width="320" height="240" controls>
+  <source src="https://drive.google.com/file/d/1IFv4h4_SPKFkx9rM6eIHsOV21bz7cZ1v/view?usp=sharing" type="video/mp4">
+</video>
 ---
 
 ## Features
