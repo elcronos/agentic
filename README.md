@@ -1,13 +1,17 @@
 # Agentic AI & GenAI Playground
 
-This repository is a collection of focused projects that showcase how to use **agentic AI** and **GenAI** in practical, real-world settings.
+This repository is a small, curated set of projects I’ve built in my spare time to explore how to use modern **Agentic AI** and **GenAI** tools, concepts and frameworks in practical, real-world settings.
 
-The goal is to demonstrate:
+It focuses on:
 
-- How LLM-powered agents can be used to build and run ML workflows end-to-end.
-- How GenAI can be embedded into existing data/ML stacks (e.g. scikit-learn, PyTorch, traditional analytics).
+- Using LLM-driven agents to **design, run, and evaluate end-to-end ML workflows**.  
+- Embedding GenAI models into real **data/ML stacks** (classic ML, computer vision, video) instead of one-off demos.  
+- **Optimising prompts and agent programs** (e.g. via DSPy/MIPROv-style teleprompting) rather than treating prompts as static text.  
+- Building **evaluation loops** for agents and models (end-to-end vs component-based evaluations, LLM-as-a-judge).  
+- Exploring **current AI engineering tools and patterns** in a fast-moving ecosystem (agent frameworks, multimodal LLMs, and GenAI video).  
 
-Each folder in this repo is an independent project with its own `README.md`, code, and environment setup.
+
+Each folder is a self-contained project with its own `README.md`, code, and setup, designed to be read like a real-world pattern rather than a toy example.
 
 ---
 
