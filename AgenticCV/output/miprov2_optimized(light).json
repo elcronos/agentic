@@ -1,0 +1,32 @@
+{
+  "classify.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Given an image of a capsule, identify any signs of defects such as cracks, scratches, pokes, or faulty imprints. Classify the capsule into one of the following categories: crack, scratch, poke, faulty_imprint, squeeze, or good. Provide a detailed reasoning to support the classification decision.",
+      "fields": [
+        {
+          "prefix": "Image:",
+          "description": "path to an image to be classified"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "classification result"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,4 +1,5 @@
-plexe
 kagglehub
 pandas
 scikit-learn
+dspy
+dotenv

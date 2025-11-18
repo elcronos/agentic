@@ -38,11 +38,12 @@ test_df.to_csv("dataset/test.csv", index=False)
 model = ModelBuilder(
     provider=ProviderConfig(
         default_provider="openai/gpt-4o",
-        #orchestrator_provider="anthropic/claude-sonnet-4-20250514",
-        #research_provider="openai/gpt-4o",
-        #engineer_provider="anthropic/claude-3-7-sonnet-20250219",
-        #ops_provider="anthropic/claude-3-7-sonnet-20250219",
-        #tool_provider="openai/gpt-4o",
+		# You can specify other providers for different agents
+        # orchestrator_provider="anthropic/claude-sonnet-4-20250514",
+        # research_provider="openai/gpt-4o",
+        # engineer_provider="anthropic/claude-3-7-sonnet-20250219",
+        # ops_provider="anthropic/claude-3-7-sonnet-20250219",
+        # tool_provider="openai/gpt-4o",
     ),
     verbose=False,
 )

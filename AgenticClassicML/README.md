@@ -1,7 +1,7 @@
 
 # Machine Learning Model Baselines with Plexe
 
-![Alt text](AgenticML.png "Classic ML with Agentic AI")
+![AgenticClassifcMLImage](AgenticML.png "Classic ML with Agentic AI")
 
 This repository demonstrates how to use [Plexe](https://github.com/plexe-ai/plexe) to automatically build **traditional machine learning models** (e.g. logistic regression, decision trees) on the classic Breast Cancer Wisconsin dataset.
 
